@@ -37,7 +37,7 @@ public class PassByValue {
 
 	public static void main(String args[]){
 
-		System.out.println("Java is Pass-By-Value");
+		System.out.println("Java is Pass-By-Value. The value copied is referenced to same object.");
 
 		char a = 'a';
 		char b = 'b';
