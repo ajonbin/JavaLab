@@ -1,4 +1,4 @@
-package com.ajonbin.javalab.com.ajonbin.javalab.garbagecollection;
+package com.ajonbin.javalab.garbagecollection;
 
 import java.lang.management.GarbageCollectorMXBean;
 import java.lang.management.ManagementFactory;
