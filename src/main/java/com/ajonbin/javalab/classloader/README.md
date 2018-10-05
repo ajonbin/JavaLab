@@ -78,3 +78,10 @@ $ javac -d classes -cp iclasses src/main/java/com/ajonbin/javalab/classloader/St
 
 $ java -cp classes:iclasses com.ajonbin.javalab.classloader.StaticMessagerClassLoader
 Hello From MessagerEnglish!
+
+
+# Hot Deploy
+
+$ javac -d iclasses src/main/java/com/ajonbin/javalabhelper/interfaces/IMessager.java
+
+$ javac -d classes -cp iclasses src/main/java/com/ajonbin/javalab/classloader/HotDeploy.java
